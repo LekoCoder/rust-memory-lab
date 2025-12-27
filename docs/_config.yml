@@ -4,7 +4,7 @@ title: Rust Memory Deep Dive
 description: Learning Rust memory management through hands-on debugging
 author: Amil Amirov
 baseurl: "/rust-memory-lab"  # Change this to your repo name
-url: "https://yourusername.github.io"  # Change to your GitHub username
+url: "https://lekocoder.github.io"  # Change to your GitHub username
 
 # Theme
 theme: minima
