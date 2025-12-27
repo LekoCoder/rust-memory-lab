@@ -1,0 +1,29 @@
+# Create the config file
+cat > _config.yml << 'EOF'
+title: Rust Memory Deep Dive
+description: Learning Rust memory management through hands-on debugging
+author: Amil Amirov
+baseurl: "/rust-memory-lab"  # Change this to your repo name
+url: "https://yourusername.github.io"  # Change to your GitHub username
+
+# Theme
+theme: minima
+# Or use: remote_theme: pages-themes/cayman@v0.2.0
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections (optional, for organizing content)
+collections:
+  stack:
+    output: true
+    permalink: /:collection/:name
+  heap:
+    output: true
+    permalink: /:collection/:name
